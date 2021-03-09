@@ -1,0 +1,111 @@
+header{
+    min-height: 100%;
+}
+
+header .banner{
+    height: 540px;
+    background-color: rgba(200, 200, 200,.3);
+    background-size: cover;
+    background-position: 50% 0;
+    background-attachment: fixed;
+}
+
+header .banner img{
+    display: none;
+}
+
+header .banner .dots{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    word-spacing: 16px;
+    text-align: center;
+    z-index: 2;
+}
+
+header .banner .dots .item-dot{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+    background-color: #fff;
+    box-shadow: inset 0 -2px 3px #aaa, 0 0 0 3px rgba(255,255,255,.3);
+}
+
+header .banner .dots .item-dot.active{
+    background-color: #ff7b7b;
+    box-shadow: inset 0 2px 3px #b73939, 0 0 0 3px rgba(255,255,255,.3);
+}
+
+header section.missao{
+    padding: 34px 0;
+    z-index: 2;
+}
+
+header section.missao .read{
+    color: #bc0000;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+header section.missao img{
+    display: block;
+    margin: 0 auto;
+}
+
+header section.missao p{
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all .2s linear;
+}
+
+@media (min-width: 768px) {
+    header{
+        height: 100%;
+        min-height: 670px;
+        max-height: 820px;
+        position: relative;
+    }
+
+    header .banner{
+        height: 100%;
+    }
+
+    header .banner .dots{
+        bottom: 160px;
+    }
+
+    header section.missao{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 18px 0 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    header{
+        max-height: 950px;
+    }
+
+    header .banner{
+        background-position: center top;
+    }
+}
+
+@media (min-width: 1200px) {
+    header{
+        max-height: 892px;
+    }
+}

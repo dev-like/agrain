@@ -1,0 +1,31 @@
+<?php
+
+return [
+  'seemore'     => 'VER MAIS',
+  'comapalavra' => '',
+  'direitosreservados' => 'Todos os Direitos Reservados.',
+  'secao1'=>'A EMPRESA',
+  'secao2'=>'COMPROMETIDOS COM SEUS RESULTADOS',
+  'secao2.1'=>'MISSÃO',
+  'secao2.2'=>'VISÃO',
+  'secao2.3'=>'VALORES',
+  'comapalavra'=>'COM A PALAVRA',
+  'nossosclientes'=>'NOSOS CLIENTES',
+  'slogan'=>'AGRAIN - nutrir, cultivar e colher.',
+  'utilizacao'=>'DICAS DE APLICAÇÃO',
+  'descricao'=>'FICHA TÉCNICA',
+  'col1'=>'Garantias',
+  'col2'=>'p/p (%)',
+  'col3'=>'p/v (g/L)',
+  'contato'=>'CONTATO',
+  'endereco'=>'ENDEREÇO',
+  'newsletter'=>'Assine nossos boletins informativos para receber nossas últimas notícias e atualizações.',
+  'news-placeholder'=>'Insira seu E-mail',
+  'news-title'=>'Por favor insira seu e-mail',
+  'news-msg'=>'Insira um e-mail válido.',
+  'news-btn'=>'INSCREVA-SE JÁ!',
+  'produtos'=>'NOSSOS PRODUTOS',
+  'secao3.1'=>'Conheça nossas soluções para pequenas e grandes culturas!',
+  'saibamais'      => 'SAIBA MAIS',
+];
+?>

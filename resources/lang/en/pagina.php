@@ -1,0 +1,31 @@
+<?php
+
+return [
+  'seemore'     => 'SEE MORE',
+  'comapalavra' => '',
+  'direitosreservados' => 'All rights reserved.',
+  'secao1'=>'THE COMPANY',
+  'secao2'=>'COMMITED TO YOUR RESULTS',
+  'secao2.1'=>'MISSION',
+  'secao2.2'=>'VISION',
+  'secao2.3'=>'VALUES',
+  'comapalavra'=>'WITH THE WORD',
+  'nossosclientes'=>'OUR CLIENTS',
+  'slogan'=>'AGRAIN - nurture, cultivate and harvest',
+  'utilizacao'=>'APLICATION TIPS',
+  'descricao'=>'DATASHEET',
+  'col1'=>'Guarantees',
+  'col2'=>'p/p (%)',
+  'col3'=>'p/v (g/L)',
+  'contato'=>'CONTACT',
+  'endereco'=>'ADDRESS',
+  'newsletter'=>'Subscribe to our newsletters to receive latest news and updates.',
+  'news-placeholder'=>'Enter your email',
+  'news-title'=>'Please enter your email',
+  'news-msg'=>'Please enter a valid email',
+  'news-btn'=>'SUBSCRIBE NOW!',
+  'produtos'=>'OUR PRODUCTS',
+  'secao3.1' => 'Discover our solutions for small and large cultures!',
+  'saibamais'      => 'Agro in Focus',
+];
+?>
