@@ -33,7 +33,7 @@
 <div class="container">
     <div class="col-md-3 logo">
         <!-- Main Logo -->
-        <a href="/"><img src="../assets/images/logo.png" alt="Agrain Logo" /></a>
+        <a href="/agrain"><img src="../assets/images/logo.png" alt="Agrain Logo" /></a>
         <!-- Responsive Toggle Menu -->
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
             <span class="sr-only"> Main Menu </span>
@@ -104,7 +104,7 @@
     <!-- Breadcrumbs -->
     <div class="breadcrumbs">
         <div class="container">
-            <span class="parent"> <i class="fa fa-home"></i> <a href="/"> Home </a> </span>
+            <span class="parent"> <i class="fa fa-home"></i> <a href="/agrain"> Home </a> </span>
             <i class="fa fa-chevron-right"></i>
             <span class="child"> {{$produtoss->nome}} </span>
         </div>
@@ -185,14 +185,48 @@
     </div>
 </main>
 
-<!-- Rodapé -->
 <footer <section id="contato">
 
     <div class="footer">
         <div class="container">
             <!-- Prefooter Section -->
+            <!--<div class="row pre-footer">-->
+            <!--    <div class="col-md-4">-->
+            <!--        <div class="contact-box">-->
+            <!--            <i class="fa fa-map-marker" aria-hidden="true"></i>-->
+            <!--            <div class="contact-details">-->
+            <!--                <h4 class="pre-footer-title">@lang('pagina.endereco')</h4>-->
+            <!--                <p>{{$quemsomos->endereco}}, {{$quemsomos->bairro}}</p>-->
+            <!--                <p>{{$quemsomos->cidade}} - {{$quemsomos->estado}}. {{$quemsomos->cep}}</p>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+
+            <!--    <div class="col-md-4">-->
+            <!--        <div class="contact-box">-->
+            <!--            <i class="fa fa-phone" aria-hidden="true"></i>-->
+            <!--            <div class="contact-details">-->
+            <!--                <h4 class="pre-footer-title">@lang('pagina.contato')</h4>-->
+            <!--                <p><a href="tel:{{preg_replace('/[^0-9]/','',$quemsomos->telefone1)}}" style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->telefone1}}</a></p>-->
+            <!--                <p><a href="tel:{{preg_replace('/[^0-9]/','',$quemsomos->telefone2)}}" style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->telefone2}}</a></p>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+
+            <!--    <div class="col-md-4">-->
+            <!--        <div class="contact-box">-->
+            <!--            <i class="fa fa-envelope" aria-hidden="true"></i>-->
+            <!--            <div class="contact-details">-->
+            <!--                <h4 class="pre-footer-title">E-MAIL</h4>-->
+            <!--                <p><a href="mailto:{{$quemsomos->email}}"style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->email}}</a></p>-->
+            <!--                <p><a href="mailto:{{$quemsomos->email}}"style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->email}}</a></p>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+
             <div class="row pre-footer">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="contact-box">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                         <div class="contact-details">
@@ -203,35 +237,27 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="contact-box">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <div class="contact-details">
-                            <h4 class="pre-footer-title">@lang('pagina.contato')</h4>
-                            <p><a href="tel:{{preg_replace('/[^0-9]/','',$quemsomos->telefone1)}}" style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->telefone1}}</a></p>
-                            <p><a href="tel:{{preg_replace('/[^0-9]/','',$quemsomos->telefone2)}}" style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->telefone2}}</a></p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-4">
+
+                <div class="col-md-6">
                     <div class="contact-box">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <div class="contact-details">
                             <h4 class="pre-footer-title">E-MAIL</h4>
-                            <p><a href="mailto:{{$quemsomos->email}}"style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->email}}</a></p>
-                            <p><a href="mailto:{{$quemsomos->email}}"style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->email}}</a></p>
+                            <p style="padding-bottom: 24px"><a href="mailto:{{$quemsomos->email}}"style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->email}}</a></p>
+
                         </div>
                     </div>
                 </div>
             </div>
+
             <!-- Prefooter Section -->
 
             <!-- Footer widgets -->
             <div class="row widgets">
                 <div class="col-md-4 col-sm-6">
                     <div class="about-txt widget">
-                        <img src="../assets/images/footer-logo.png" alt="logo" />
+                        <img src="assets/images/footer-logo.png" alt="logo" />
                         <?php
                         $i=0;
                         $lines = explode("\n", $quemsomos->quemsomos); // or use PHP PHP_EOL constant
