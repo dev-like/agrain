@@ -257,7 +257,7 @@
             <div class="row widgets">
                 <div class="col-md-4 col-sm-6">
                     <div class="about-txt widget">
-                        <img src="assets/images/footer-logo.png" alt="logo" />
+                        <img src="../assets/images/footer-logo.png" alt="logo" />
                         <?php
                         $i=0;
                         $lines = explode("\n", $quemsomos->quemsomos); // or use PHP PHP_EOL constant
