@@ -137,7 +137,7 @@
           <section class="produto-descricao" style="padding-top:0px">
           <div class="response">
               <div class="col-md-12">
-                <span class="niveis" style="text-align:left">NÍVEIS DE GARANTIA POR KG DO PRODUTO</span>
+                <span class="niveis" style="text-align:left">NÍVEIS DE GARANTIA POR LITRO DO PRODUTO</span>
                   <div class="table" style="float:left">
                     <div class="row">
                         <div class="col-md-6 conteudo"><strong>@lang('pagina.col1')</strong></div>
