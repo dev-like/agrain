@@ -4,7 +4,7 @@
     <div class="container">
         <div class="col-md-3 logo">
             <!-- Main Logo -->
-            <a href="/"><img src="assets/images/logo.png" alt="Agrain Logo" /></a>
+            <a href="/agrain"><img src="assets/images/logo.png" alt="Agrain Logo" /></a>
             <!-- Responsive Toggle Menu -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only"> Main Menu </span>
