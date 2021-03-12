@@ -42,7 +42,7 @@
                   <ul>
                     <?php $count = 0; ?>
                     @foreach($produtos as $produto)
-                     <?php if($count == 7) break; ?>
+                     <?php if($count == 9) break; ?>
                       <li> <a href="{{route('produto.item',$produto->slug)}}" style="color:#23b953">{{$produto->nome}}</a> </li>
                       <?php $count++; ?>
                     @endforeach
