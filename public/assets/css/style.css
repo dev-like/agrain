@@ -1257,6 +1257,11 @@ section.home-stats {
 .services-other .services-info {
     width: 100%;
     padding-left: 100px;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .services-other .services-info h4 {
@@ -1280,8 +1285,11 @@ section.home-stats {
         float: none;
         margin: 0;
     }
+
     .services-other .services-info {
         padding: 30px 0 0;
+        position: sticky;
+        /* padding-left: 100px; */
     }
 }
 
@@ -1321,6 +1329,7 @@ section.home-stats {
     .about-services .row.services {
         text-align: center;
     }
+
     .about-services .row.services > div {
         width: 500px;
     }

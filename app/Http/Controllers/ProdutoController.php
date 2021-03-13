@@ -62,14 +62,14 @@ class ProdutoController extends Controller
         if ($request->hasFile('imagem')) {
             $image = $request->file('imagem');
             $filename = time() . '.' . $image->getClientOriginalName();
-            $location = public_path('uploads/produtos/' . $filename);
+            $location = 'uploads/produtos/' . $filename;
             Image::make($image)->save($location);
             $produto->imagem = $filename;
         }
         if ($request->hasFile('logo')) {
             $image = $request->file('logo');
             $filename = time() . '.' . $image->getClientOriginalName();
-            $location = public_path('uploads/produtos/' . $filename);
+            $location = 'uploads/produtos/' . $filename;
             Image::make($image)->save($location);
             $produto->logo = $filename;
         }
@@ -152,7 +152,7 @@ class ProdutoController extends Controller
             $location = public_path('uploads/produtos/' . $filename);
             Image::make($image)->save($location);
 
-        
+
 
             if ($produto->logo) {
                 $oldFilename = $produto->logo;
