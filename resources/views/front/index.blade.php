@@ -165,8 +165,7 @@
                             </div>
                             <div class="services-info">
                                 <h4 class="services-title-one subtitle">HORTIFRUTI</h4>
-                                <!-- <p>Lorem ipsum dolor sit amet, con tetur adipiscing elit agenean.</p> -->
-                            </div>
+                              </div>
                         </div>
 
 
