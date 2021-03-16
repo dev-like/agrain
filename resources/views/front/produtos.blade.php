@@ -1,5 +1,5 @@
 <title>AGRAIN | {{$produtoss->nome}}</title>
-<link rel="stylesheet" href="../assets/css/produtos.css">
+<link rel="stylesheet" href="assets/css/produtos.css">
 <!-- Basic Page Needs -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,11 +15,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Bootstrap core CSS -->
-<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Font Awesome CSS -->
-<link rel="stylesheet" href="../assets/fonts/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
 
 <style>
   section{
@@ -52,8 +52,8 @@
                 </div>
                 <div class="social">
                     <ul class="social-icons">
-                        <li><a href="{{ url('locale/pt-br') }}"><img border="0" alt="BR" src="../assets/images/brasil.png"></a></li>
-                        <li><a href="{{ url('locale/en') }}"><img border="0" alt="EUA" src="../assets/images/eua.png"></a></li>
+                        <li><a href="{{ url('locale/pt-br') }}"><img border="0" alt="BR" src="assets/images/brasil.png"></a></li>
+                        <li><a href="{{ url('locale/en') }}"><img border="0" alt="EUA" src="assets/images/eua.png"></a></li>
                     </ul>
                 </div>
             </div>
@@ -65,7 +65,7 @@
 <nav id="navbar" class="collapse navbar-collapse main-menu">
     <div class="container">
         <ul class="main-menu">
-            <li> <a href="../#sobre">@lang('menu.item2')</a>  </li>
+            <li> <a href="#sobre">@lang('menu.item2')</a>  </li>
             @if(!empty($produtos))
               <li class="dropdown"><a href="#" data-toggle="dropdown">@lang('menu.item3')
                   <i class="fa fa-chevron-down dropdown-toggle"> </i>  </a>
@@ -81,15 +81,15 @@
             @endif
 
             <!-- <li><a href="#depoimentos">@lang('menu.item3')</a> </li> -->
-            <li><a href="../#culturas">@lang('menu.item10')</a> </li>
+            <li><a href="#culturas">@lang('menu.item10')</a> </li>
             <!--<li><a href="#depoimentos">@lang('menu.item5')</a> </li>-->
 
             <!-- <li><a href="#dicasdemanejo">@lang('menu.item6')</a> </li> -->
 
-              <li><a href="../#noticia">@lang('menu.item7') </a></li>
+              <li><a href="#noticia">@lang('menu.item7') </a></li>
 
               <!--<li><a href="#parceiros">@lang('menu.item8')</a> </li>-->
-            <li><a href="../#contato">@lang('menu.item9')</a> </li>
+            <li><a href="#contato">@lang('menu.item9')</a> </li>
         </ul>
     </div>
 </nav>
@@ -260,7 +260,7 @@
             <div class="row widgets">
                 <div class="col-md-4 col-sm-6">
                     <div class="about-txt widget">
-                        <img src="../assets/images/footer-logo.png" alt="logo" />
+                        <img src="assets/images/footer-logo.png" alt="logo" />
                         <?php
                         $i=0;
                         $lines = explode("\n", $quemsomos->quemsomos); // or use PHP PHP_EOL constant
@@ -337,30 +337,30 @@
         <!-- back-to-top link -->
         <a href="#0" class="cd-top"> Top </a>
 
-<script src="../assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
 
 <!-- Bootstrap core JavaScript -->
-<script src="../assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 
 <!-- jQuery Flex Slider -->
-<script src="../assets/js/jquery.flexslider-min.js"></script>
+<script src="assets/js/jquery.flexslider-min.js"></script>
 
 <!-- Owl Carousel -->
-<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
 
 <!-- Counter JS -->
-<script src="../assets/js/waypoints.min.js"></script>
-<script src="../assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
 
 <!-- Back to top -->
-<script src="../assets/js/back-to-top.js"></script>
+<script src="assets/js/back-to-top.js"></script>
 
 <!-- Form Validation -->
-<script src="../assets/js/validate.js"></script>
+<script src="assets/js/validate.js"></script>
 
 <!-- Subscribe Form JS -->
-<script src="../assets/js/subscribe.js"></script>
+<script src="assets/js/subscribe.js"></script>
 
 <!-- Main JS -->
-<script src="../assets/js/main.js"></script>
-<script src="../assets/js/pages.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/pages.js"></script>
