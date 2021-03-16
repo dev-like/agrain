@@ -121,13 +121,49 @@
     <!-- Rodapé -->
 
 <!-- Rodapé -->
+
 <footer <section id="contato">
 
     <div class="footer">
         <div class="container">
             <!-- Prefooter Section -->
+            <!--<div class="row pre-footer">-->
+            <!--    <div class="col-md-4">-->
+            <!--        <div class="contact-box">-->
+            <!--            <i class="fa fa-map-marker" aria-hidden="true"></i>-->
+            <!--            <div class="contact-details">-->
+            <!--                <h4 class="pre-footer-title">@lang('pagina.endereco')</h4>-->
+            <!--                <p>{{$quemsomos->endereco}}, {{$quemsomos->bairro}}</p>-->
+            <!--                <p>{{$quemsomos->cidade}} - {{$quemsomos->estado}}. {{$quemsomos->cep}}</p>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+
+            <!--    <div class="col-md-4">-->
+            <!--        <div class="contact-box">-->
+            <!--            <i class="fa fa-phone" aria-hidden="true"></i>-->
+            <!--            <div class="contact-details">-->
+            <!--                <h4 class="pre-footer-title">@lang('pagina.contato')</h4>-->
+            <!--                <p><a href="tel:{{preg_replace('/[^0-9]/','',$quemsomos->telefone1)}}" style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->telefone1}}</a></p>-->
+            <!--                <p><a href="tel:{{preg_replace('/[^0-9]/','',$quemsomos->telefone2)}}" style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->telefone2}}</a></p>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+
+            <!--    <div class="col-md-4">-->
+            <!--        <div class="contact-box">-->
+            <!--            <i class="fa fa-envelope" aria-hidden="true"></i>-->
+            <!--            <div class="contact-details">-->
+            <!--                <h4 class="pre-footer-title">E-MAIL</h4>-->
+            <!--                <p><a href="mailto:{{$quemsomos->email}}"style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->email}}</a></p>-->
+            <!--                <p><a href="mailto:{{$quemsomos->email}}"style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->email}}</a></p>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+
             <div class="row pre-footer">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="contact-box">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                         <div class="contact-details">
@@ -138,28 +174,20 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="contact-box">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <div class="contact-details">
-                            <h4 class="pre-footer-title">@lang('pagina.contato')</h4>
-                            <p><a href="tel:{{preg_replace('/[^0-9]/','',$quemsomos->telefone1)}}" style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->telefone1}}</a></p>
-                            <p><a href="tel:{{preg_replace('/[^0-9]/','',$quemsomos->telefone2)}}" style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->telefone2}}</a></p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-4">
+
+                <div class="col-md-6">
                     <div class="contact-box">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <div class="contact-details">
                             <h4 class="pre-footer-title">E-MAIL</h4>
-                            <p><a href="mailto:{{$quemsomos->email}}"style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->email}}</a></p>
-                            <p><a href="mailto:{{$quemsomos->email}}"style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->email}}</a></p>
+                            <p style="padding-bottom: 24px"><a href="mailto:{{$quemsomos->email}}"style="color: rgba(0, 0, 0, 0.8)">{{$quemsomos->email}}</a></p>
+
                         </div>
                     </div>
                 </div>
             </div>
+
             <!-- Prefooter Section -->
 
             <!-- Footer widgets -->
@@ -238,6 +266,7 @@
     </div>
     <!-- Copyright -->
 </footer>
+<!-- Footer Section -->
 
    <script src="../assets/js/jquery.min.js"></script>
 
